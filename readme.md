@@ -6,6 +6,5 @@ An attempt at a web crawler.
 from wcrawl import crawl
 
 for url in crawl('https://youtube.com'):
-  print(url)
-  
+  print(url)  
 ```
