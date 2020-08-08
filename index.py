@@ -32,5 +32,9 @@ def crawl(url):
 
     if len(children) < 32:
       children += list(set(urls(page, path)) - visited)
+      
+    # clear visited when large
+    # if len(visited) > 300:
+    #   visited = set() 
 
     yield current
