@@ -1,5 +1,6 @@
-## wcrawl
-An attempt at a web crawler.
+# webcrawl
+
+A simple web crawling script written in Python.
 
 ```python3
 
